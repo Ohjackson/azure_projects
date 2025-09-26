@@ -1,0 +1,46 @@
+{
+  "profile_echo": {
+    "gender": "Men|Women|Unisex",
+    "age": 0,
+    "industry": "string",
+    "role": "string",
+    "style_preference": ["string"],
+    "season": "Spring|Summer|Fall|Winter|null",
+    "budget": "$|$$|$$$|null"
+  },
+  "recommendations": [
+    {
+      "outfit": {
+        "title": "string",
+        "hook_line": "string",
+        "dress_code": "casual|smart-casual|business-casual|formal",
+        "items": [
+          { "category": "top|outer|bottom|shoes|bag|accessory", "name": "string", "color": "string|null" }
+        ],
+        "style_tags": ["string"],
+        "color_palette": ["string"],
+        "why": ["string", "string"],
+        "season_fit": ["Spring","Summer","Fall","Winter"],
+        "budget_range": "$|$$|$$$|null",
+        "evidence_doc_ids": ["string"]     // 패션 RAG 문서 id
+      },
+      "perfumes": [
+        {
+          "name": "string",
+          "brand": "string|null",
+          "accords": ["string"],
+          "notes": ["string"],
+          "projection": "soft|moderate|strong|null",
+          "longevity": "short|moderate|long|null",
+          "seasonality": ["Spring","Summer","Fall","Winter"],
+          "why_match": ["string", "string"],
+          "evidence_doc_ids": ["string"],  // 향수 RAG 문서 id
+          "score": 0.0
+        }
+      ],
+      "score": 0.0
+    }
+  ],
+  "context_used": true,
+  "pagination": { "requested": 2, "returned": 2 }
+}

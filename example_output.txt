@@ -1,0 +1,95 @@
+{
+  "profile_echo": {
+    "gender": "Women",
+    "age": 23,
+    "industry": "Design",
+    "role": "UI Designer",
+    "style_preference": ["minimal","feminine"],
+    "season": "Spring",
+    "budget": "$$"
+  },
+  "recommendations": [
+    {
+      "outfit": {
+        "title": "크림 톤 미니멀 스마트-캐주얼",
+        "hook_line": "가벼운 미팅에도 깔끔하게 ✨",
+        "dress_code": "smart-casual",
+        "items": [
+          { "category": "top", "name": "아이보리 실크 블라우스", "color": "ivory" },
+          { "category": "bottom", "name": "라이트 베이지 슬랙스", "color": "beige" },
+          { "category": "shoes", "name": "누드톤 로퍼", "color": "nude" },
+          { "category": "bag", "name": "스몰 숄더백", "color": "cream" }
+        ],
+        "style_tags": ["minimal","feminine"],
+        "color_palette": ["ivory","beige","nude","cream"],
+        "why": [
+          "봄 시즌에 맞는 라이트 톤·가벼운 소재로 통일",
+          "디자이너 직군의 자유로운 분위기에 과하지 않게 어울림"
+        ],
+        "season_fit": ["Spring"],
+        "budget_range": "$$",
+        "evidence_doc_ids": ["fashion_doc_102","fashion_doc_221"]
+      },
+      "perfumes": [
+        {
+          "name": "Chloé Eau de Parfum",
+          "brand": "Chloé",
+          "accords": ["floral","fresh","powdery"],
+          "notes": ["peony","rose","lychee","freesia","musk"],
+          "projection": "moderate",
+          "longevity": "moderate",
+          "seasonality": ["Spring","Summer"],
+          "why_match": [
+            "미니멀·페미닌 무드에 자연스럽게 어울리는 로지 플로럴",
+            "사무실·미팅 환경에서 과하지 않은 확산"
+          ],
+          "evidence_doc_ids": ["perfume_doc_55","perfume_doc_9"],
+          "score": 0.83
+        }
+      ],
+      "score": 0.87
+    },
+    {
+      "outfit": {
+        "title": "그레이 투피스 라이트 포멀",
+        "hook_line": "깔끔·단정·편안함의 균형",
+        "dress_code": "business-casual",
+        "items": [
+          { "category": "outer", "name": "라이트 그레이 크롭 재킷", "color": "light gray" },
+          { "category": "bottom", "name": "그레이 미디 스커트", "color": "gray" },
+          { "category": "shoes", "name": "화이트 레더 스니커즈", "color": "white" },
+          { "category": "accessory", "name": "실버 이어링", "color": "silver" }
+        ],
+        "style_tags": ["minimal"],
+        "color_palette": ["light gray","gray","white","silver"],
+        "why": [
+          "미팅 동행 시 정돈된 실루엣, 활동성 유지",
+          "뉴트럴 팔레트로 다양한 현장·스튜디오 이동에 무난"
+        ],
+        "season_fit": ["Spring"],
+        "budget_range": "$$",
+        "evidence_doc_ids": ["fashion_doc_31"]
+      },
+      "perfumes": [
+        {
+          "name": "Prada Infusion d'Iris",
+          "brand": "Prada",
+          "accords": ["powdery","floral","fresh"],
+          "notes": ["iris","neroli","cedar","benzoin","mandarin"],
+          "projection": "soft",
+          "longevity": "moderate",
+          "seasonality": ["Spring"],
+          "why_match": [
+            "미니멀·뉴트럴 코디와 조화되는 파우더리 플로럴",
+            "사무실 친화적 확산으로 부담 적음"
+          ],
+          "evidence_doc_ids": ["perfume_doc_112"],
+          "score": 0.8
+        }
+      ],
+      "score": 0.84
+    }
+  ],
+  "context_used": true,
+  "pagination": { "requested": 2, "returned": 2 }
+}

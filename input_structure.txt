@@ -1,0 +1,16 @@
+{
+  "user_profile": {
+    "gender": "Men", 
+    "age": 24,
+    "occupation": {
+      "industry": "IT",
+      "role": "Frontend Developer"
+    },
+    "style_preference": ["minimal", "casual", "street"]
+  },
+  "options": {
+    "season": "Summer",
+    "budget": "$$",
+    "need_count": 2
+  }
+}
