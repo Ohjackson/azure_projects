@@ -111,7 +111,12 @@ async def serve_ui() -> FileResponse:
     """정적 HTML UI 제공."""
     index_path = STATIC_DIR / "index.html"
     if not index_path.exists():
-        raise HTTPException(status_code=404, detail="UI 파일을 찾을 수 없습니다.")
+        # Allow projects that still keep index.html at repo root.
+        legacy_path = BASE_DIR / "index.html"
+        if legacy_path.exists():
+            index_path = legacy_path
+        else:
+            raise HTTPException(status_code=404, detail="UI 파일을 찾을 수 없습니다.")
     return FileResponse(index_path)
 
 
